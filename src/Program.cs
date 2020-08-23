@@ -67,7 +67,7 @@ namespace GRAL_2001
             Console.WriteLine("");
             Console.WriteLine("+------------------------------------------------------+");
             Console.WriteLine("|                                                      |");
-            string Info =     "+  > >         G R A L VERSION: 20.09Beta1       < <   +";
+            string Info =     "+  > >         G R A L VERSION: 20.09            < <   +";
             Console.WriteLine(Info);
             if (RunOnUnix)
             {
@@ -273,7 +273,7 @@ namespace GRAL_2001
             if (AdaptiveRoughnessMax > 0 && BuildingsExist)
             {
                 //define FlowField dependend Z0, UStar and OL, generate Z0GRAL[][] array and write RoghnessGRAL file
-                InitAdaptiveRouhnessLenght(ReaderClass);
+                InitAdaptiveRoughnessLenght(ReaderClass);
             }
             else
             {
